@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
-    "preview": "vite preview"
+    "build": "npx --yes vite build",
+    "lint": "eslint .",
+    "preview": "npx vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
