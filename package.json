@@ -4,10 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npx --yes vite build",
-    "lint": "eslint .",
-    "preview": "npx vite preview"
+    "postinstall": "chmod +x node_modules/.bin/vite",
+    "build": "vite build"
   },
   "dependencies": {
     "react": "^18.2.0",
